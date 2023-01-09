@@ -5,11 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A punch-card Web</title>
+    <title>Welcome~</title>
+    <link rel="stylesheet" href="./index.css">
+    <script>
+        function login() {
+            let key = document.getElementById("key").value;
+            if (key == "190624") {
+                window.location.href = "card.html";
+                window.event.returnValue = false;
+            }
+            else {
+                alert("key is wrong!")
+            }
+        }
+    </script>
 </head>
 
 <body>
-    <p>hello,its a machine!</p>
+    <div class="content">
+        <div class="log">
+            <form action="">
+                <p>KEY:</p>
+                <input type="password" id="key" placeholder="please">
+                <br />
+                <button type="submit" onclick="login()">login</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
