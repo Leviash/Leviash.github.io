@@ -115,11 +115,12 @@ header:hover h1 {
     line-height: 50px;
     opacity: 60%;
     transition: 0.5s;
+    perspective: 1000px;
 }
 
 .calendar .time li:hover {
     opacity: 100%;
-    transform: rotateX(20deg) rotateY(20deg);
+    transform: rotateX(20deg) rotateY(20deg) translateZ(20px);
 }
 
 #t0 {
@@ -218,7 +219,6 @@ hr {
     margin-top: 3px;
     width: 500px;
     height: 700px;
-
 }
 
 .explain .words li {
