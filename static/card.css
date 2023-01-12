@@ -265,7 +265,25 @@ hr {
     border-radius: 10px;
     transform: rotateX(90deg) translateZ(50px);
     text-align: center;
-    line-height: 100px;
+    line-height: 60px;
+}
+
+.cost .box .top .border {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cost .box .top .process {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(236,133,246,0.32);
+    animation: process 1s infinite alternate;
 }
 
 .cost .box .front {
@@ -279,4 +297,14 @@ hr {
     transform: translateZ(50px);
     text-align: center;
     line-height: 100px;
+}
+
+@keyframes process {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 9px;
+    }
 }
