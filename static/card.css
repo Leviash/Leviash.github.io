@@ -47,16 +47,22 @@ header:hover h1 {
     color: #fff;
 }
 
-.month h1 {
+.month h1,
+.month h2 {
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 250px;
+    margin-right: 140px;
     font-size: 20px;
 }
 
-.month h2 {
+.month h2{
+    opacity: 0.5;
+}
+
+.month h3 {
     display: inline-block;
+    margin-left: 55px;
     font-size: 20px;
+    opacity: 0.5;
 }
 
 .day {
@@ -282,8 +288,7 @@ hr {
 .cost .box .top .process {
     width: 150px;
     height: 30px;
-    background-color: rgba(236,133,246,0.32);
-    animation: process 1s infinite alternate;
+    animation: process 2s infinite alternate linear;
 }
 
 .cost .box .front {
@@ -300,11 +305,28 @@ hr {
 }
 
 @keyframes process {
-    from {
-        width: 0px;
+    0% {
+        width: 1px;
+        background-color: rgba(236, 133, 246, 0.5);
     }
 
-    to {
-        width: 21px;
+    20% {
+        width: 23px;
+        background-color: rgba(236, 133, 246, 0.6);
+    }
+
+    40% {
+        width: 60px;
+        background-color: rgba(236, 133, 246, 0.2);
+    }
+
+    70% {
+        width: 90px;
+        background-color: rgba(236, 133, 246, 0.1);
+    }
+
+    100% {
+        width: 150px;
+        background-color: rgba(236, 133, 246, 0);
     }
 }
