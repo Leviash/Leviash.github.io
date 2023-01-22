@@ -24,29 +24,30 @@ body {
 .log {
     position: relative;
     display: block;
-    margin: auto;
-    width: 400px;
-    height: 250px;
+    margin: 150px auto;
+    width: 5rem;
+    height: 3.8rem;
     background-color: rgba(122, 197, 205, 0.3);
-    border-radius: 10px;
+    border-radius: 0.05rem;
     transition: 1s;
 }
 
 .log:hover {
-    width: 600px;
-    height: 400px;
-    background-color: rgba(122, 197, 205, 0.8);
+    width: 5.25rem;
+    height: 4.2rem;
+    background-color: rgba(122, 197, 205, 0.5);
     border: 1px solid rgb(102, 139, 139);
-    border-radius: 20px;
+    border-radius: 0.1rem;
 }
 
 .log:hover form input {
-    font-size: 30px;
+    font-size: 0.2rem;
     background-color: #fff;
 }
 
 .log:hover form p {
-    margin-bottom: 50px;
+    margin-bottom: 0.25rem;
+    font-size: 0.2rem;
     color: rgba(47, 79, 79);
 }
 
@@ -59,8 +60,8 @@ body {
 }
 
 .log form p {
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 0.1rem;
+    font-size: 0.1rem;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     transition: .5s;
@@ -70,32 +71,41 @@ body {
 
 .log form input {
     display: block;
-    margin-top: 20px;
-    font-size: 20px;
-    background-color: rgb(240, 240, 250);
+    margin-top: 0.1rem;
+    width: 3rem;
+    font-size: 0.1rem;
+    background-color: rgba(240, 240, 250, 0.6);
     border: 0;
     outline: none;
     transition: .2s;
 }
 
 .log form input::placeholder {
-    font-size: 20px;
+    font-size: 0.1rem;
+    font-style: italic;
+}
+
+.log:hover form input::placeholder {
+    font-size: 0.1rem;
     font-style: italic;
 }
 
 .log form button {
     display: inline-block;
-    margin-top: 20px;
-    width: 100px;
-    height: 50px;
+    margin-top: 0.5rem;
+    width: 1rem;
+    height: 0.5rem;
     border: 0;
-    border-radius: 10px;
+    border-radius: 0.05rem;
+    background-color: rgba(240, 250, 240, 0.5);
+    font-size: 0.1rem;
     transition: 1s;
 }
 
 .log:hover form button {
-    margin-top: 50px;
-    width: 200px;
-    height: 100px;
-    font-size: 20px;
+    margin-top: 0.6rem;
+    width: 1.25rem;
+    height: 0.5rem;
+    background-color: rgba(240, 250, 240, 0.8);
+    font-size: 0.2rem;
 }
