@@ -10,6 +10,16 @@ body {
     height: 100%;
 }
 
+.cute{
+    position: fixed;
+    right: -100px;
+    bottom: 0;
+}
+
+.cute img{
+    height: 500px;
+}
+
 .wrapper {
     position: relative;
     width: 70%;
