@@ -314,6 +314,10 @@ hr {
     line-height: 100px;
 }
 
+.color ul:first-child{
+    opacity: 60%;
+}
+
 @keyframes process {
     0% {
         width: 1px;
