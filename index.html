@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Welcome~</title>
-    <link rel="stylesheet" href="./static/index.css">
-
+    <link rel="stylesheet" media="(width>=800px)" href="./static/index.css">
+    <link rel="stylesheet" media="(width<800px" href="./static/index_m.css">
 </head>
 
 <body>
@@ -17,7 +17,9 @@
                 <p>KEY:</p>
                 <input type="password" id="key" placeholder="please">
                 <br />
-                <button type="submit" onclick="login()">login</button>
+
+                <button type="submit" onclick="login()"><div>login</div></button>
+
             </form>
         </div>
     </div>
