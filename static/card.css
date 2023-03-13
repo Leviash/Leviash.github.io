@@ -14,7 +14,7 @@ body {
     position: absolute;
     right: 200px;
     bottom: 230px;
-    z-index: 10;
+    z-index: 1;
 }
 
 .cute img {
@@ -56,6 +56,7 @@ header:hover h1 {
     top: 12%;
     left: 25%;
     color: #fff;
+    z-index: 10;
 }
 
 .month button {
@@ -68,6 +69,7 @@ header:hover h1 {
     font-size: 20px;
     opacity: 30%;
     transition: 1s;
+    z-index: 100;
 }
 
 .month button:hover {
@@ -82,6 +84,7 @@ header:hover h1 {
     width: 100px;
     height: 450px;
     color: #fff;
+    z-index: 10;
 }
 
 .day li {
@@ -105,6 +108,7 @@ header:hover h1 {
     border: 1px solid skyblue;
     border-radius: 10px;
     overflow: hidden;
+    z-index: 10;
 }
 
 .calendar {
@@ -119,6 +123,7 @@ header:hover h1 {
     height: 450px;
     z-index: 100;
     transition: 1s;
+    z-index: 10;
 }
 
 .calendar ul {
@@ -272,6 +277,7 @@ hr {
     transition: 1s;
     font-size: 30px;
     font-style: italic;
+    z-index: 10;
 }
 
 .cost .box:hover {
@@ -289,6 +295,7 @@ hr {
     transform: rotateX(90deg) translateZ(50px);
     text-align: center;
     line-height: 60px;
+    z-index: 10;
 }
 
 .cost .box .top .border {
@@ -319,6 +326,7 @@ hr {
     transform: translateZ(50px);
     text-align: center;
     line-height: 100px;
+    z-index: 10;
 }
 
 .color ul:first-child {
