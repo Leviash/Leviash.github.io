@@ -12,7 +12,7 @@ body {
 
 .cute {
     position: absolute;
-    right: 300px;
+    right: 200px;
     bottom: 230px;
     z-index: 10;
 }
@@ -54,32 +54,31 @@ header:hover h1 {
 .month {
     position: absolute;
     top: 12%;
-    left: 28%;
+    left: 25%;
     color: #fff;
 }
 
-.month h1,
-.month h2 {
+.month button {
     display: inline-block;
-    margin-right: 140px;
+    margin-right: 100px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6cf;
     font-size: 20px;
+    opacity: 30%;
+    transition: 1s;
 }
 
-.month h2 {
-    opacity: 0.5;
-}
-
-.month h3 {
-    display: inline-block;
-    margin-left: 55px;
-    font-size: 20px;
-    opacity: 0.5;
+.month button:hover {
+    opacity: 100%;
+    border-radius: 25px;
 }
 
 .day {
     position: absolute;
-    left: -100px;
-    top: 0;
+    left: 240px;
+    top: 160px;
     width: 100px;
     height: 450px;
     color: #fff;
@@ -93,37 +92,43 @@ header:hover h1 {
     line-height: 50px;
 }
 
-.calendar {
+.time {
     position: relative;
     position: absolute;
     left: 50%;
     top: 20%;
+    display: flex;
+    justify-content: left;
     transform: translate(-50%);
-    float: left;
-    width: 610px;
+    width: 720px;
     height: 450px;
     border: 1px solid skyblue;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.calendar {
+    position: relative;
+    position: absolute;
+    left: -270px;
+    top: 0;
+    display: flex;
+    justify-content: left;
+    transform: translate(-50%);
+    width: 720px;
+    height: 450px;
     z-index: 100;
+    transition: 1s;
 }
 
 .calendar ul {
-    float: left;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-left: 20px;
     width: 50px;
     height: 50px;
 }
 
-.calendar ul:first-child {
-    margin-left: 10px;
-}
-
-.calendar ul:last-child {
-    margin-right: 0;
-}
-
-.calendar .time li {
+.calendar li {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
@@ -136,7 +141,7 @@ header:hover h1 {
     perspective: 1000px;
 }
 
-.calendar .time li:hover {
+.calendar li:hover {
     opacity: 100%;
     transform: rotateX(20deg) rotateY(20deg) translateZ(20px);
 }

@@ -19,23 +19,50 @@
     <div class="main">
         <div class="wrapper">
             <div class="month">
-                <h1>一月</h1>
-                <h2>二月</h2>
-                <h3>三月</h3>
+                <button id="Jan">一月</button>
+                <button id="Feb">二月</button>
+                <button id="Mar">三月</button>
+                <button id="Apr">四月</button>
+                <button id="May">五月</button>
+                <!-- <button id="June">六月</button>
+                <button id="July">七月</button>
+                <button id="Aug">八月</button>
+                <button id="Sep">九月</button>
+                <button id="Oct">十月</button>
+                <button id="Nov">十一月</button>
+                <button id="Dec">十二月</button> -->
             </div>
-            <div class="calendar">
-                <div class="day">
+            <div class="day">
+                <ul>
+                    <li>周一</li>
+                    <li>周二</li>
+                    <li>周三</li>
+                    <li>周四</li>
+                    <li>周五</li>
+                    <li>周六</li>
+                    <li>周天</li>
+                </ul>
+            </div>
+            <div class="time">
+                <div class="calendar">
                     <ul>
-                        <li>周一</li>
-                        <li>周二</li>
-                        <li>周三</li>
-                        <li>周四</li>
-                        <li>周五</li>
-                        <li>周六</li>
-                        <li>周天</li>
+                        <li id="t0" title="当天花费0小时">26</li>
+                        <li id="t0" title="当天花费0小时">27</li>
+                        <li id="t0" title="当天花费0小时">28</li>
+                        <li id="t0" title="当天花费0小时">29</li>
+                        <li id="t0" title="当天花费0小时">30</li>
+                        <li id="t0" title="当天花费0小时">31</li>
+                        <li id="t0" title="当天花费0小时">1</li>
                     </ul>
-                </div>
-                <div class="time">
+                    <ul>
+                        <li id="t0" title="当天花费0小时">2</li>
+                        <li id="t0" title="当天花费0小时">3</li>
+                        <li id="t0" title="当天花费0小时">4</li>
+                        <li id="t0" title="当天花费0小时">5</li>
+                        <li id="t0" title="当天花费0小时">6</li>
+                        <li id="t0" title="当天花费0小时">7</li>
+                        <li id="t0" title="当天花费0小时">8</li>
+                    </ul>
                     <ul>
                         <li id="t8-9" title="当天花费8小时">9</li>
                         <li id="t5-6" title="当天花费5小时">10</li>
@@ -72,6 +99,7 @@
                         <li id="t3-4" title="二月四日 3-2 小时">4</li>
                         <li id="t4-5" title="二月五日 4-3 小时">5</li>
                     </ul>
+                    <!--二月-->
                     <ul>
                         <li id="t4-5" title="二月六日 4-3 小时">6</li>
                         <li id="t4-5" title="二月七日 4-2 小时">7</li>
@@ -99,6 +127,7 @@
                         <li id="t1-2" title="二月二十五日 1-1 小时">25</li>
                         <li id="t3-4" title="二月二十六日 3-2 小时">26</li>
                     </ul>
+                    <!--三月-->
                     <ul>
                         <li id="t4-5" title="二月二十七日 4-2 小时">27</li>
                         <li id="t5-6" title="二月二十八日 5-2 小时">28</li>
@@ -119,12 +148,159 @@
                     </ul>
                     <ul>
                         <li id="t6-7" title="三月十三日 6-5 小时">13</li>
-                        <li title="三月十四日 0 小时">14</li>
-                        <li title="三月十五日 0 小时">15</li>
-                        <li title="三月十六日 0 小时">16</li>
-                        <li title="三月十七日 0 小时">17</li>
-                        <li title="三月十八日 0 小时">18</li>
-                        <li title="三月十九日 0 小时">19</li>
+                        <li id="t0" title="三月十四日 0 小时">14</li>
+                        <li id="t0" title="三月十五日 0 小时">15</li>
+                        <li id="t0" title="三月十六日 0 小时">16</li>
+                        <li id="t0" title="三月十七日 0 小时">17</li>
+                        <li id="t0" title="三月十八日 0 小时">18</li>
+                        <li id="t0" title="三月十九日 0 小时">19</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="三月二十日 0 小时">20</li>
+                        <li id="t0" title="三月二十一日 0 小时">21</li>
+                        <li id="t0" title="三月二十二日 0 小时">22</li>
+                        <li id="t0" title="三月二十三日 0 小时">23</li>
+                        <li id="t0" title="三月二十四日 0 小时">24</li>
+                        <li id="t0" title="三月二十五日 0 小时">25</li>
+                        <li id="t0" title="三月二十六日 0 小时">26</li>
+                    </ul>
+                    <!--四月-->
+                    <ul>
+                        <li id="t0" title="三月二十七日 0 小时">27</li>
+                        <li id="t0" title="三月二十八日 0 小时">28</li>
+                        <li id="t0" title="三月二十九日 0 小时">29</li>
+                        <li id="t0" title="三月三十日 0 小时">30</li>
+                        <li id="t0" title="三月三十一日 0 小时">31</li>
+                        <li id="t0" title="四月一日 0 小时">1</li>
+                        <li id="t0" title="四月二日 0 小时">2</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="四月三日 0 小时">3</li>
+                        <li id="t0" title="四月四日 0 小时">4</li>
+                        <li id="t0" title="四月五日 0 小时">5</li>
+                        <li id="t0" title="四月六日 0 小时">6</li>
+                        <li id="t0" title="四月七日 0 小时">7</li>
+                        <li id="t0" title="四月八日 0 小时">8</li>
+                        <li id="t0" title="四月九日 0 小时">9</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="四月十日 0 小时">10</li>
+                        <li id="t0" title="四月十一日 0 小时">11</li>
+                        <li id="t0" title="四月十二日 0 小时">12</li>
+                        <li id="t0" title="四月十三日 0 小时">13</li>
+                        <li id="t0" title="四月十四日 0 小时">14</li>
+                        <li id="t0" title="四月十五日 0 小时">15</li>
+                        <li id="t0" title="四月十六日 0 小时">16</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="四月十七日 0 小时">17</li>
+                        <li id="t0" title="四月十八日 0 小时">18</li>
+                        <li id="t0" title="四月十九日 0 小时">19</li>
+                        <li id="t0" title="四月二十日 0 小时">20</li>
+                        <li id="t0" title="四月二十一日 0 小时">21</li>
+                        <li id="t0" title="四月二十二日 0 小时">22</li>
+                        <li id="t0" title="四月二十三日 0 小时">23</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="四月二十四日 0 小时">24</li>
+                        <li id="t0" title="四月二十五日 0 小时">25</li>
+                        <li id="t0" title="四月二十六日 0 小时">26</li>
+                        <li id="t0" title="四月二十七日 0 小时">27</li>
+                        <li id="t0" title="四月二十八日 0 小时">28</li>
+                        <li id="t0" title="四月二十九日 0 小时">29</li>
+                        <li id="t0" title="四月三十日 0 小时">30</li>
+                    </ul>
+                    <!--五月-->
+                    <ul>
+                        <li id="t0" title="五月一日 0 小时">1</li>
+                        <li id="t0" title="五月二日 0 小时">2</li>
+                        <li id="t0" title="五月三日 0 小时">3</li>
+                        <li id="t0" title="五月四日 0 小时">4</li>
+                        <li id="t0" title="五月五日 0 小时">5</li>
+                        <li id="t0" title="五月六日 0 小时">6</li>
+                        <li id="t0" title="五月七日 0 小时">7</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="五月八日 0 小时">8</li>
+                        <li id="t0" title="五月九日 0 小时">9</li>
+                        <li id="t0" title="五月十日 0 小时">10</li>
+                        <li id="t0" title="五月十一日 0 小时">11</li>
+                        <li id="t0" title="五月十二日 0 小时">12</li>
+                        <li id="t0" title="五月十三日 0 小时">13</li>
+                        <li id="t0" title="五月十四日 0 小时">14</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="五月十五日 0 小时">15</li>
+                        <li id="t0" title="五月十六日 0 小时">16</li>
+                        <li id="t0" title="五月十七日 0 小时">17</li>
+                        <li id="t0" title="五月十八日 0 小时">18</li>
+                        <li id="t0" title="五月十九日 0 小时">19</li>
+                        <li id="t0" title="五月二十日 0 小时">20</li>
+                        <li id="t0" title="五月二十一日 0 小时">21</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="五月二十二日 0 小时">22</li>
+                        <li id="t0" title="五月二十三日 0 小时">23</li>
+                        <li id="t0" title="五月二十四日 0 小时">24</li>
+                        <li id="t0" title="五月二十五日 0 小时">25</li>
+                        <li id="t0" title="五月二十六日 0 小时">26</li>
+                        <li id="t0" title="五月二十七日 0 小时">27</li>
+                        <li id="t0" title="五月二十八日 0 小时">28</li>
+                    </ul>
+                    <!--六月-->
+                    <ul>
+                        <li id="t0" title="五月二十九日 0 小时">29</li>
+                        <li id="t0" title="五月三十日 0 小时">30</li>
+                        <li id="t0" title="五月三十一日 0 小时">31</li>
+                        <li id="t0" title="六月一日 0 小时">1</li>
+                        <li id="t0" title="六月二日 0 小时">2</li>
+                        <li id="t0" title="六月三日 0 小时">3</li>
+                        <li id="t0" title="六月四日 0 小时">4</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="六月五日 0 小时">5</li>
+                        <li id="t0" title="六月六日 0 小时">6</li>
+                        <li id="t0" title="六月七日 0 小时">7</li>
+                        <li id="t0" title="六月八日 0 小时">8</li>
+                        <li id="t0" title="六月九日 0 小时">9</li>
+                        <li id="t0" title="六月十日 0 小时">10</li>
+                        <li id="t0" title="六月十一日 0 小时">11</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="六月十二日 0 小时">12</li>
+                        <li id="t0" title="六月十三日 0 小时">13</li>
+                        <li id="t0" title="六月十四日 0 小时">14</li>
+                        <li id="t0" title="六月十五日 0 小时">15</li>
+                        <li id="t0" title="六月十六日 0 小时">16</li>
+                        <li id="t0" title="六月十七日 0 小时">17</li>
+                        <li id="t0" title="六月十八日 0 小时">18</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="六月十九日 0 小时">19</li>
+                        <li id="t0" title="六月二十日 0 小时">20</li>
+                        <li id="t0" title="六月二十一日 0 小时">21</li>
+                        <li id="t0" title="六月二十二日 0 小时">22</li>
+                        <li id="t0" title="六月二十三日 0 小时">23</li>
+                        <li id="t0" title="六月二十四日 0 小时">24</li>
+                        <li id="t0" title="六月二十五日 0 小时">25</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="六月二十六日 0 小时">26</li>
+                        <li id="t0" title="六月二十七日 0 小时">27</li>
+                        <li id="t0" title="六月二十八日 0 小时">28</li>
+                        <li id="t0" title="六月二十九日 0 小时">29</li>
+                        <li id="t0" title="六月三十日 0 小时">30</li>
+                        <li id="t0" title="七月一日 0 小时">1</li>
+                        <li id="t0" title="七月二日 0 小时">2</li>
+                    </ul>
+                    <ul>
+                        <li id="t0" title="七月三日 0 小时">3</li>
+                        <li id="t0" title="七月四日 0 小时">4</li>
+                        <li id="t0" title="七月五日 0 小时">5</li>
+                        <li id="t0" title="七月六日 0 小时">6</li>
+                        <li id="t0" title="七月七日 0 小时">7</li>
+                        <li id="t0" title="七月八日 0 小时">8</li>
+                        <li id="t0" title="七月九日 0 小时">9</li>
                     </ul>
                 </div>
             </div>
