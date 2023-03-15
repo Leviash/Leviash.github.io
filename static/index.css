@@ -104,6 +104,7 @@ body {
 .log form button div {
     width: 1rem;
     height: 0.5rem;
+    line-height: 0.5rem;
 }
 
 .log form button::before {
