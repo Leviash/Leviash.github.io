@@ -94,13 +94,16 @@ body {
     position: relative;
     display: inline-block;
     margin-top: 0.5rem;
-    width: 1rem;
-    height: 0.5rem;
     border: 0;
     border-radius: 0.05rem;
     background-color: rgba(240, 250, 240, 0.5);
     font-size: 0.1rem;
     transition: 1s;
+}
+
+.log form button div {
+    width: 1rem;
+    height: 0.5rem;
 }
 
 .log form button::before {
@@ -163,10 +166,10 @@ body {
     transition: 0.7s;
 }
 
-.log form:hover div::before {
+.log div:hover::before {
     height: 0.5rem;
 }
 
-.log form:hover div::after {
+.log div:hover::after {
     width: 1.25rem;
 }
