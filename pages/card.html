@@ -8,7 +8,7 @@
     <title>A punch-card Web</title>
     <link rel="shortcut icon" href="./static/" type="image/x-icon">
     <link rel="stylesheet" href="../static/card_m.css" media="(min-width:100px)">
-    <link rel="stylesheet" href="../static/card.css" media="(min-width:700px)">
+    <link rel="stylesheet" href="../static/card.css" media="(min-width:768px)">
 </head>
 
 <body>
@@ -359,8 +359,13 @@
         </div>
     </div>
     <div class="cute" id="dv"><img src="../static/看板娘.png" alt="这里什么也没有..." draggable="false"></div>
+    <script type="text/javascript">
+        if (screen.width < 768)
+            document.write('<script src="../js/drop_m.js"><script>');
+        else
+            document.write('<script src="../js/drop.js"><script>');
+    </script>
     <script src="../js/flexible.js"></script>
-    <script src="../js/drop.js"></script>
 </body>
 
 
