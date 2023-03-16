@@ -12,8 +12,8 @@ body {
 
 .cute {
     position: absolute;
-    right: 200px;
-    bottom: 230px;
+    right: -100px;
+    bottom: 50px;
     z-index: 1;
 }
 
@@ -23,7 +23,7 @@ body {
 
 .wrapper {
     position: relative;
-    width: 70%;
+    width: 1200px;
     height: 700px;
     margin: 0 auto;
 }
@@ -53,8 +53,8 @@ header:hover h1 {
 
 .month {
     position: absolute;
-    top: 12%;
-    left: 25%;
+    top: 80px;
+    left: 260px;
     color: #fff;
     z-index: 10;
 }
@@ -79,7 +79,7 @@ header:hover h1 {
 
 .day {
     position: absolute;
-    left: 240px;
+    left: 180px;
     top: 160px;
     width: 100px;
     height: 450px;
