@@ -80,7 +80,3 @@ Sep.addEventListener('click', () => calendar.style.left = '-1400px')
 Oct.addEventListener('click', () => calendar.style.left = '-1600px')
 Nov.addEventListener('click', () => calendar.style.left = '-1800px')
 Dec.addEventListener('click', () => calendar.style.left = '-2000px')
-
-
-
-
